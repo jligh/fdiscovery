@@ -1,0 +1,12 @@
+<div class="look-item">
+    <img class="item-img" ng-src="{{look.image_url}}">
+    <div class="item-content">
+        <h4 class="title">{{look.title}}</h4>
+        <div class="blurb">{{look.blurb | words:32}}</div>
+        <a class="more" ng-href="{{look.details_url}}" target="_blank">Read More</a>
+        <div class="user">
+            <div style="background-image: url('{{look.author.img}}')" class="user-img"></div>
+            <div class="user-name">{{look.author.displayName}}</div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,24 @@
+{
+  "name": "fdiscovery",
+  "version": "0.0.1",
+  "description": "Full-Stack JavaScript with MongoDB, Express, AngularJS, and Node.js",
+  "dependencies": {
+    "angular": "~1.2",
+    "angular-animate": "~1.2",
+    "angular-bootstrap": "~0.11.2",
+    "angular-cookies": "~1.2",
+    "angular-masonry": "~0.12.0",
+    "angular-mocks": "~1.2",
+    "angular-resource": "~1.2",
+    "angular-sanitize": "~1.2",
+    "angular-touch": "~1.2",
+    "angular-truncate": "*",
+    "angular-ui-router": "~0.2.11",
+    "angular-ui-utils": "~0.1.1",
+    "bootstrap": "~3",
+    "ngInfiniteScroll": "~1.2.1"
+  },
+  "resolutions": {
+    "angular": "1.2.28"
+  }
+}
