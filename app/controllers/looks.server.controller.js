@@ -110,41 +110,38 @@ exports.listRandom = function(req, res) {
         } else {
             /**
              * create randomness with pagination here...
-             * doing it code will obviously not scale, since all results are being returned, but it doesn't seem like
-             * mongo has an equivalent to mysql's "order by rand". thought about just using mysql, but the data seems
-             * better suited for a document db like mongo. mysql's "order by rand" also has it's own scale problems.
-             * another solution, though not random  every time, would be to store a random value in each document, and
-             * ordering by that field. It could be periodically updated, so that the result order changes depending on
-             * when the user visits the site.
+             * doing it in code will obviously not scale, since all results are being returned, but it doesn't seem
+             * like mongo has an equivalent to mysql's "order by rand". thought about just using mysql, but
+             * mysql's "order by rand" also has it's own scale problems. another solution, though not random every
+             * time, would be to store a random value in each document, and ordering by that field. It could be
+             * periodically updated, so that the result order changes depending on when the user visits the site.
              */
 
-            var rng = seedrandom(seed);
             var indexStart = (page - 1) * limit;
             var indexEnd = indexStart + limit;
             if (indexStart > looks.length) {
-                console.log('too far');
+                //too far
                 res.jsonp([]);
             } else {
-                console.log('paging');
+                //add a random value to each item, with a seed so that pages dont duplicate content
+                var rng = seedrandom(seed);
                 for (var i = 0; i < looks.length; i++) {
                     looks[i].rand = rng();
                 }
+                //sort values by random value and paginate
                 looks.sort(function(a, b) { return a.rand - b.rand; });
                 var ids = looks.slice(indexStart, indexEnd).map(function(o) {
                     return o._id;
                 });
                 //only got ids to save on memory space, now lets get the actual data
-                console.log(ids);
                 Look.find({'_id' : {
                     '$in' : ids
                 }}).populate('author').exec(function(err, results) {
                     if (err) {
-                        console.log(err);
                         return res.status(400).send({
                             message: errorHandler.getErrorMessage(err)
                         });
                     } else {
-                        console.log(results);
                         res.jsonp(results);
                     }
                 });
