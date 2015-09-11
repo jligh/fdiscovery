@@ -10,10 +10,7 @@ angular.module('lookbook').directive('lookItem', [
               look: '='
             },
 			link: function postLink(scope, element, attrs) {
-				// Look item directive logic
-				// ...
-
-
+				// this is a simple directive, but can extend to do more complex things in the future
 			}
 		};
 	}

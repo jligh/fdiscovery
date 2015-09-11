@@ -93,7 +93,7 @@ exports.list = function(req, res) {
 };
 
 exports.listRandom = function(req, res) {
-    var page = parseInt(req.query.page) || '';
+    var page = parseInt(req.query.page) || 1;
     var limit = parseInt(req.query.limit) || 10;
     var seed = req.query.seed || 'test';
     Look.find({}).select('_id').exec(function(err, looks) {
