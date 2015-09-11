@@ -1,5 +1,5 @@
 <section>
-    <div infinite-scroll="loadNext()" nfinite-scroll-disabled="disableScrollCheck" infinite-scroll-distance="1">
+    <div class="look-container" infinite-scroll="loadNext()" nfinite-scroll-disabled="disableScrollCheck" infinite-scroll-distance="1">
         <div masonry>
             <div class="masonry-brick" ng-repeat="look in looks track by look._id">
                 <look-item look="look"></look-item>

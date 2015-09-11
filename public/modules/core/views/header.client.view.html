@@ -1,5 +1,13 @@
 <div class="container">
 	<div class="navbar-header">
-		<a href="/#!/" class="navbar-brand">LookBook</a>
+		<a href="/#!/" class="navbar-brand">lookbook</a>
+        <span class="navbar-subtitle">a fashion discovery app.</span>
+
+        <ul class="nav navbar-nav">
+            <li ui-sref-active="active"><a href ui-sref="lookbook({type:''})">All</a></li>
+            <li ui-sref-active="active"><a href ui-sref="lookbook({type:'clothing'})">Clothing</a></li>
+            <li ui-sref-active="active"><a href ui-sref="lookbook({type:'shoes'})">Shoes</a></li>
+            <li ui-sref-active="active"><a href ui-sref="lookbook({type:'accessory'})">Accessories</a></li>
+        </ul>
 	</div>
 </div>

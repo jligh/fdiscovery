@@ -6,12 +6,12 @@ angular.module('lookbook').config(['$stateProvider',
 		// Lookbook state routing
 		$stateProvider.
 		state('lookbook', {
-			url: '/lookbook',
+			url: '/lookbook/:type',
 			templateUrl: 'modules/lookbook/views/lookbook.client.view.html',
             controller: 'LookbookController',
             resolve: {
-                theLooks: ['looks', function(looks) {
-                    return looks.getRandomLooks();
+                theLooks: ['looks', 'lookConfig', '$stateParams', function(looks, lookConfig, $stateParams) {
+                    return looks.getRandomLooks(1, lookConfig.limit, $stateParams.type);
                 }]
             }
 		});

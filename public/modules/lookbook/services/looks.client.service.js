@@ -9,12 +9,14 @@ angular.module('lookbook').factory('looks', ['$http',
 
 		// Public API
 		return {
-            getRandomLooks: function(page, limit) {
+            getRandomLooks: function(page, limit, type) {
                 page = page || 1;
                 limit = limit || 10;
+                type = type || '';
                 var params = {
                     page: page,
                     limit: limit,
+                    type: type,
                     seed: seed
                 };
                 return $http.get('/looksRandom', {params: params}).then(function(res) {

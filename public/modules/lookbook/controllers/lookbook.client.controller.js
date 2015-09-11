@@ -1,7 +1,9 @@
 'use strict';
 
-angular.module('lookbook').controller('LookbookController', ['$scope', 'theLooks', 'looks',
-	function($scope, theLooks, looks) {
+angular.module('lookbook').controller('LookbookController', ['$scope', '$stateParams', 'theLooks', 'looks', 'lookConfig', '$window',
+	function($scope, $stateParams, theLooks, looks, lookConfig, $window) {
+
+        $window.scrollTo(0, 0);
         console.log('hey');
         console.log(theLooks);
         $scope.looks = theLooks;
@@ -15,7 +17,7 @@ angular.module('lookbook').controller('LookbookController', ['$scope', 'theLooks
           console.log('next!');
           $scope.disableScrollCheck = true;
           var lastId = $scope.looks[$scope.looks.length - 1]._id;
-          looks.getRandomLooks(page + 1, 10).then(function(moreLooks) {
+          looks.getRandomLooks(page + 1, lookConfig.limit, $stateParams.type).then(function(moreLooks) {
               if (moreLooks.length) {
                   $scope.disableScrollCheck = false;
                   page++;

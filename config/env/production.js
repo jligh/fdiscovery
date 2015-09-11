@@ -20,7 +20,9 @@ module.exports = {
 				'public/lib/angular-bootstrap/ui-bootstrap-tpls.min.js',
                 'public/lib/angular-truncate/src/truncate.js',
                 'public/lib/ngInfiniteScroll/build/ng-infinite-scroll.min.js',
-                'public/lib/angulargrid/angulargrid.min.js'
+                'public/lib/masonry/dist/masonry.pkgd.min.js',
+                'public/lib/imagesloaded/imagesloaded.pkgd.min.js',
+                'public/lib/angular-masonry/angular-masonry.js'
 			]
 		},
 		css: 'public/dist/application.min.css',

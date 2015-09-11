@@ -42,7 +42,7 @@
 .item-content .user {
     margin-top: 10px;
     padding-top: 10px;
-    border-top: solid 1px #dfdfdf;
+    border-top: dotted 1px #dfdfdf;
 }
 
 .item-content .user .user-img {

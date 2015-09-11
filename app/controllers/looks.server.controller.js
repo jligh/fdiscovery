@@ -95,8 +95,14 @@ exports.list = function(req, res) {
 exports.listRandom = function(req, res) {
     var page = parseInt(req.query.page) || 1;
     var limit = parseInt(req.query.limit) || 10;
+    var type = req.query.type || '';
     var seed = req.query.seed || 'test';
-    Look.find({}).select('_id').exec(function(err, looks) {
+
+    var query = {};
+    if (type) {
+        query.type = type;
+    }
+    Look.find(query).select('_id').exec(function(err, looks) {
         if (err) {
             return res.status(400).send({
                 message: errorHandler.getErrorMessage(err)

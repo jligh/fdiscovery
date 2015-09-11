@@ -2,7 +2,7 @@
 
 module.exports = {
 	app: {
-		title: 'LookBook',
+		title: 'lookbook - a fashion discovery app',
 		description: 'A Fashion Discovery App',
 		keywords: 'fashion, lookbook'
 	},
