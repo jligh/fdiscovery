@@ -5,7 +5,6 @@ angular.module('lookbook').factory('looks', ['$http',
 
         //set a seed for this session
         var seed = Math.random();
-        seed = 'test';
 
 		// Public API
 		return {
