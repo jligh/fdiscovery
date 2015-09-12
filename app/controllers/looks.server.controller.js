@@ -74,7 +74,6 @@ exports.delete = function(req, res) {
  * List of Looks
  */
 exports.list = function(req, res) {
-    console.log(req.query);
     var cursor = {};
     var limit = 10;
     if (req.query.cursor) {
