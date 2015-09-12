@@ -102,7 +102,7 @@ exports.listRandom = function(req, res) {
     if (type) {
         query.type = type;
     }
-    Look.find(query).select('_id').exec(function(err, looks) {
+    Look.find(query).select('_id').lean().exec(function(err, looks) {
         if (err) {
             return res.status(400).send({
                 message: errorHandler.getErrorMessage(err)

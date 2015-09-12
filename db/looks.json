@@ -1,109 +1,531 @@
-{ title: 'Black 49ers Jerseys', type: 'clothing', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', image_url: '/img/jersey.jpg', details_url: 'http://www.starwars.com', author: ObjectId('15efbb8ff9d6c2c51942418c')}
-{ title: 'Curry Ones', type: 'shoes', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', image_url: '/img/curryone.jpg', details_url: 'http://www.starwars.com', author: ObjectId('25efbb8ff9d6c2c51942418c')}
-{ title: 'Roo style dog', type: 'accessory', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',image_url: '/img/norwich.jpg', details_url: 'http://www.starwars.com', author: ObjectId('35efbb8ff9d6c2c51942418c')}
-{ title: 'Space Jams', type: 'shoes', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',image_url: '/img/jordan.jpg', details_url: 'http://www.starwars.com', author: ObjectId('45efbb8ff9d6c2c51942418c')}
+[
+{
+    title: 'Apple Watch Edition Rose Gold',
+    type: 'accessory',
+    blurb: 'Apple Watch Edition is available in 18-karat Yellow or Rose Gold case, sapphire crystal, and a range of bands.',
+    image_url: '/img/awrose.jpg',
+    details_url: 'http://www.apple.com/watch/apple-watch-edition/18-karat-rose-gold-case-rose-gray-modern-buckle/',
+    author: ObjectId('25efbb8ff9d6c2c51942418c')
+},
+{
+    title: 'Women\'s Black 49ers Jersey',
+    type: 'clothing',
+    blurb: 'Cheer for the San Francisco 49ers with this Colin Kaepernick Alternate Game jersey from Nike. It features vibrant San Francisco 49ers and Colin Kaepernick graphics to support your favorite player.',
+    image_url: '/img/jersey.jpg',
+    details_url: 'http://www.nflshop.com/San_Francisco_49ers_Jerseys/Womens_San_Francisco_49ers_Colin_Kaepernick_Nike_Black_Alternate_Game_Jersey',
+    author: ObjectId('45efbb8ff9d6c2c51942418c')
+},
+{
+    title: 'Women\'s Nike Free 5.0 Running Shoes',
+    type: 'shoes',
+    blurb: 'Offering less bulk than previous models, the latest Women\'s Nike Free 5.0 features hexagonal flex grooves on the sole, encouraging a more natural gait.',
+    image_url: '/img/nikefree.jpg',
+    details_url: 'http://www.finishline.com/store/product/womens-nike-free-5-0-running-shoes/_/A-6911?productId=prod776968',
+    author: ObjectId('35efbb8ff9d6c2c51942418c')
+},
+{
+    title: 'Star Wars R2-D2 & C-3PO Best Friends Necklace Set',
+    type: 'accessory',
+    blurb: 'Want to show off your love of Star Wars beyond quotes and clothes? Our line of Star Wars jewelry lets you do just that.',
+    image_url: '/img/swneck.jpg',
+    details_url: 'http://www.hottopic.com/hottopic/Star+Wars+R2-D2+amp+C-3PO+Best+Friends+Necklace+Set-10310523.jsp',
+    author: ObjectId('25efbb8ff9d6c2c51942418c')
+},
+{
+    title: 'Apple Watch Hermes',
+    type: 'accessory',
+    blurb: 'Uncompromising craftsmanship. Pioneering innovation. Groundbreaking functionality. Apple Watch Hermès is the culmination of a partnership based on parallel thinking, singular vision, and mutual regard. It is a unique timepiece designed with both utility and beauty in mind.',
+    image_url: '/img/awhermes.jpg',
+    details_url: 'http://www.apple.com/apple-watch-hermes/',
+    author: ObjectId('35efbb8ff9d6c2c51942418c')
+},
+{
+    title: 'Women\'s Free Agent Tri-Blend Full-Zip Hoodie',
+    type: 'clothing',
+    blurb: 'As the warm weather fades, don\'t let it take your fiery Golden State Warriors enthusiasm with it. Face the cold in this Free Agent full-zip hoodie from Touch by Alyssa Milano and let everyone know what team you\'re rooting for this season.',
+    image_url: '/img/gswtrack.jpg',
+    details_url: 'http://www.fanatics.com/NBA_Golden_State_Warriors_Sweatshirts_And_Fleece/Golden_State_Warriors_Touch_by_Alyssa_Milano_Womens_Free_Agent_Tri-Blend_Full-Zip_Hoodie_-_Black',
+    author: ObjectId('15efbb8ff9d6c2c51942418c')
+},
+{
+    title: 'Madison Bumgarner Majestic World Series Gold',
+    type: 'clothing',
+    blurb: 'Display your team pride on game day with this Madison Bumgarner Name & Number T-shirt from Majestic.',
+    image_url: '/img/sfgt.jpg',
+    details_url: 'http://www.fanatics.com/MLB_San_Francisco_Giants_Ladies_T-Shirts/Madison_Bumgarner_Majestic_World_Series_Gold_Program_San_Francisco_Giants_Womens_Name_And_Number_T-Shirt_-_Black',
+    author: ObjectId('35efbb8ff9d6c2c51942418c')
+},
+{
+    title: 'San Francisco Giants G-III 4Her by Carl Banks',
+    type: 'clothing',
+    blurb: 'Tell the world about your unwavering fanaticism when you sport this All World full-zip hoodie from G-III 4Her by Carl Banks.',
+    image_url: '/img/sfgs.jpg',
+    details_url: 'http://www.fanatics.com/MLB_San_Francisco_Giants_Ladies_Sweatshirts_And_Fleece/San_Francisco_Giants_G-III_4Her_by_Carl_Banks_Womens_All_World_Full-Zip_Hoodie_-_Black',
+    author: ObjectId('45efbb8ff9d6c2c51942418c')
+},
+{
+    title: 'Women\'s 2015 NBA Finals Champions Too Locker Room T-Shirt',
+    type: 'clothing',
+    blurb: 'Let everyone see how passionate you are for the Golden State Warriors by wearing this Too Locker Room T-shirt.',
+    image_url: '/img/gswlr.jpg',
+    details_url: 'http://www.fanatics.com/NBA_Golden_State_Warriors_Ladies_T-Shirts/Golden_State_Warriors_adidas_Womens_2015_NBA_Finals_Champions_Too_Locker_Room_T-Shirt_-_Gray',
+    author: ObjectId('45efbb8ff9d6c2c51942418c')
+},
 
-{ title: 'Black 49ers Jerseys', type: 'clothing', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', image_url: '/img/jersey.jpg', details_url: 'http://www.starwars.com', author: ObjectId('15efbb8ff9d6c2c51942418c')}
-{ title: 'Curry Ones', type: 'shoes', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', image_url: '/img/curryone.jpg', details_url: 'http://www.starwars.com', author: ObjectId('25efbb8ff9d6c2c51942418c')}
-{ title: 'Roo style dog', type: 'accessory', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',image_url: '/img/norwich.jpg', details_url: 'http://www.starwars.com', author: ObjectId('35efbb8ff9d6c2c51942418c')}
-{ title: 'Space Jams', type: 'shoes', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',image_url: '/img/jordan.jpg', details_url: 'http://www.starwars.com', author: ObjectId('45efbb8ff9d6c2c51942418c')}
-{ title: 'Black 49ers Jerseys', type: 'clothing', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', image_url: '/img/jersey.jpg', details_url: 'http://www.starwars.com', author: ObjectId('15efbb8ff9d6c2c51942418c')}
-{ title: 'Curry Ones', type: 'shoes', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', image_url: '/img/curryone.jpg', details_url: 'http://www.starwars.com', author: ObjectId('25efbb8ff9d6c2c51942418c')}
-{ title: 'Roo style dog', type: 'accessory', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',image_url: '/img/norwich.jpg', details_url: 'http://www.starwars.com', author: ObjectId('35efbb8ff9d6c2c51942418c')}
-{ title: 'Space Jams', type: 'shoes', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',image_url: '/img/jordan.jpg', details_url: 'http://www.starwars.com', author: ObjectId('45efbb8ff9d6c2c51942418c')}
-{ title: 'Black 49ers Jerseys', type: 'clothing', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', image_url: '/img/jersey.jpg', details_url: 'http://www.starwars.com', author: ObjectId('15efbb8ff9d6c2c51942418c')}
-{ title: 'Curry Ones', type: 'shoes', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', image_url: '/img/curryone.jpg', details_url: 'http://www.starwars.com', author: ObjectId('25efbb8ff9d6c2c51942418c')}
-{ title: 'Roo style dog', type: 'accessory', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',image_url: '/img/norwich.jpg', details_url: 'http://www.starwars.com', author: ObjectId('35efbb8ff9d6c2c51942418c')}
-{ title: 'Space Jams', type: 'shoes', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',image_url: '/img/jordan.jpg', details_url: 'http://www.starwars.com', author: ObjectId('45efbb8ff9d6c2c51942418c')}
-{ title: 'Black 49ers Jerseys', type: 'clothing', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', image_url: '/img/jersey.jpg', details_url: 'http://www.starwars.com', author: ObjectId('15efbb8ff9d6c2c51942418c')}
-{ title: 'Curry Ones', type: 'shoes', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', image_url: '/img/curryone.jpg', details_url: 'http://www.starwars.com', author: ObjectId('25efbb8ff9d6c2c51942418c')}
-{ title: 'Roo style dog', type: 'accessory', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',image_url: '/img/norwich.jpg', details_url: 'http://www.starwars.com', author: ObjectId('35efbb8ff9d6c2c51942418c')}
-{ title: 'Space Jams', type: 'shoes', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',image_url: '/img/jordan.jpg', details_url: 'http://www.starwars.com', author: ObjectId('45efbb8ff9d6c2c51942418c')}
-{ title: 'Black 49ers Jerseys', type: 'clothing', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', image_url: '/img/jersey.jpg', details_url: 'http://www.starwars.com', author: ObjectId('15efbb8ff9d6c2c51942418c')}
-{ title: 'Curry Ones', type: 'shoes', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', image_url: '/img/curryone.jpg', details_url: 'http://www.starwars.com', author: ObjectId('25efbb8ff9d6c2c51942418c')}
-{ title: 'Roo style dog', type: 'accessory', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',image_url: '/img/norwich.jpg', details_url: 'http://www.starwars.com', author: ObjectId('35efbb8ff9d6c2c51942418c')}
-{ title: 'Space Jams', type: 'shoes', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',image_url: '/img/jordan.jpg', details_url: 'http://www.starwars.com', author: ObjectId('45efbb8ff9d6c2c51942418c')}
-{ title: 'Black 49ers Jerseys', type: 'clothing', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', image_url: '/img/jersey.jpg', details_url: 'http://www.starwars.com', author: ObjectId('15efbb8ff9d6c2c51942418c')}
-{ title: 'Curry Ones', type: 'shoes', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', image_url: '/img/curryone.jpg', details_url: 'http://www.starwars.com', author: ObjectId('25efbb8ff9d6c2c51942418c')}
-{ title: 'Roo style dog', type: 'accessory', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',image_url: '/img/norwich.jpg', details_url: 'http://www.starwars.com', author: ObjectId('35efbb8ff9d6c2c51942418c')}
-{ title: 'Space Jams', type: 'shoes', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',image_url: '/img/jordan.jpg', details_url: 'http://www.starwars.com', author: ObjectId('45efbb8ff9d6c2c51942418c')}
-{ title: 'Black 49ers Jerseys', type: 'clothing', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', image_url: '/img/jersey.jpg', details_url: 'http://www.starwars.com', author: ObjectId('15efbb8ff9d6c2c51942418c')}
-{ title: 'Curry Ones', type: 'shoes', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', image_url: '/img/curryone.jpg', details_url: 'http://www.starwars.com', author: ObjectId('25efbb8ff9d6c2c51942418c')}
-{ title: 'Roo style dog', type: 'accessory', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',image_url: '/img/norwich.jpg', details_url: 'http://www.starwars.com', author: ObjectId('35efbb8ff9d6c2c51942418c')}
-{ title: 'Space Jams', type: 'shoes', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',image_url: '/img/jordan.jpg', details_url: 'http://www.starwars.com', author: ObjectId('45efbb8ff9d6c2c51942418c')}
-{ title: 'Black 49ers Jerseys', type: 'clothing', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', image_url: '/img/jersey.jpg', details_url: 'http://www.starwars.com', author: ObjectId('15efbb8ff9d6c2c51942418c')}
-{ title: 'Curry Ones', type: 'shoes', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', image_url: '/img/curryone.jpg', details_url: 'http://www.starwars.com', author: ObjectId('25efbb8ff9d6c2c51942418c')}
-{ title: 'Roo style dog', type: 'accessory', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',image_url: '/img/norwich.jpg', details_url: 'http://www.starwars.com', author: ObjectId('35efbb8ff9d6c2c51942418c')}
-{ title: 'Space Jams', type: 'shoes', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',image_url: '/img/jordan.jpg', details_url: 'http://www.starwars.com', author: ObjectId('45efbb8ff9d6c2c51942418c')}
-{ title: 'Black 49ers Jerseys', type: 'clothing', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', image_url: '/img/jersey.jpg', details_url: 'http://www.starwars.com', author: ObjectId('15efbb8ff9d6c2c51942418c')}
-{ title: 'Curry Ones', type: 'shoes', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', image_url: '/img/curryone.jpg', details_url: 'http://www.starwars.com', author: ObjectId('25efbb8ff9d6c2c51942418c')}
-{ title: 'Roo style dog', type: 'accessory', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',image_url: '/img/norwich.jpg', details_url: 'http://www.starwars.com', author: ObjectId('35efbb8ff9d6c2c51942418c')}
-{ title: 'Space Jams', type: 'shoes', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',image_url: '/img/jordan.jpg', details_url: 'http://www.starwars.com', author: ObjectId('45efbb8ff9d6c2c51942418c')}
-{ title: 'Black 49ers Jerseys', type: 'clothing', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', image_url: '/img/jersey.jpg', details_url: 'http://www.starwars.com', author: ObjectId('15efbb8ff9d6c2c51942418c')}
-{ title: 'Curry Ones', type: 'shoes', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', image_url: '/img/curryone.jpg', details_url: 'http://www.starwars.com', author: ObjectId('25efbb8ff9d6c2c51942418c')}
-{ title: 'Roo style dog', type: 'accessory', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',image_url: '/img/norwich.jpg', details_url: 'http://www.starwars.com', author: ObjectId('35efbb8ff9d6c2c51942418c')}
-{ title: 'Space Jams', type: 'shoes', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',image_url: '/img/jordan.jpg', details_url: 'http://www.starwars.com', author: ObjectId('45efbb8ff9d6c2c51942418c')}
-{ title: 'Black 49ers Jerseys', type: 'clothing', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', image_url: '/img/jersey.jpg', details_url: 'http://www.starwars.com', author: ObjectId('15efbb8ff9d6c2c51942418c')}
-{ title: 'Curry Ones', type: 'shoes', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', image_url: '/img/curryone.jpg', details_url: 'http://www.starwars.com', author: ObjectId('25efbb8ff9d6c2c51942418c')}
-{ title: 'Roo style dog', type: 'accessory', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',image_url: '/img/norwich.jpg', details_url: 'http://www.starwars.com', author: ObjectId('35efbb8ff9d6c2c51942418c')}
-{ title: 'Space Jams', type: 'shoes', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',image_url: '/img/jordan.jpg', details_url: 'http://www.starwars.com', author: ObjectId('45efbb8ff9d6c2c51942418c')}
-{ title: 'Black 49ers Jerseys', type: 'clothing', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', image_url: '/img/jersey.jpg', details_url: 'http://www.starwars.com', author: ObjectId('15efbb8ff9d6c2c51942418c')}
-{ title: 'Curry Ones', type: 'shoes', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', image_url: '/img/curryone.jpg', details_url: 'http://www.starwars.com', author: ObjectId('25efbb8ff9d6c2c51942418c')}
-{ title: 'Roo style dog', type: 'accessory', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',image_url: '/img/norwich.jpg', details_url: 'http://www.starwars.com', author: ObjectId('35efbb8ff9d6c2c51942418c')}
-{ title: 'Space Jams', type: 'shoes', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',image_url: '/img/jordan.jpg', details_url: 'http://www.starwars.com', author: ObjectId('45efbb8ff9d6c2c51942418c')}
-{ title: 'Black 49ers Jerseys', type: 'clothing', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', image_url: '/img/jersey.jpg', details_url: 'http://www.starwars.com', author: ObjectId('15efbb8ff9d6c2c51942418c')}
-{ title: 'Curry Ones', type: 'shoes', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', image_url: '/img/curryone.jpg', details_url: 'http://www.starwars.com', author: ObjectId('25efbb8ff9d6c2c51942418c')}
-{ title: 'Roo style dog', type: 'accessory', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',image_url: '/img/norwich.jpg', details_url: 'http://www.starwars.com', author: ObjectId('35efbb8ff9d6c2c51942418c')}
-{ title: 'Space Jams', type: 'shoes', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',image_url: '/img/jordan.jpg', details_url: 'http://www.starwars.com', author: ObjectId('45efbb8ff9d6c2c51942418c')}
-{ title: 'Black 49ers Jerseys', type: 'clothing', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', image_url: '/img/jersey.jpg', details_url: 'http://www.starwars.com', author: ObjectId('15efbb8ff9d6c2c51942418c')}
-{ title: 'Curry Ones', type: 'shoes', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', image_url: '/img/curryone.jpg', details_url: 'http://www.starwars.com', author: ObjectId('25efbb8ff9d6c2c51942418c')}
-{ title: 'Roo style dog', type: 'accessory', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',image_url: '/img/norwich.jpg', details_url: 'http://www.starwars.com', author: ObjectId('35efbb8ff9d6c2c51942418c')}
-{ title: 'Space Jams', type: 'shoes', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',image_url: '/img/jordan.jpg', details_url: 'http://www.starwars.com', author: ObjectId('45efbb8ff9d6c2c51942418c')}
-{ title: 'Black 49ers Jerseys', type: 'clothing', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', image_url: '/img/jersey.jpg', details_url: 'http://www.starwars.com', author: ObjectId('15efbb8ff9d6c2c51942418c')}
-{ title: 'Curry Ones', type: 'shoes', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', image_url: '/img/curryone.jpg', details_url: 'http://www.starwars.com', author: ObjectId('25efbb8ff9d6c2c51942418c')}
-{ title: 'Roo style dog', type: 'accessory', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',image_url: '/img/norwich.jpg', details_url: 'http://www.starwars.com', author: ObjectId('35efbb8ff9d6c2c51942418c')}
-{ title: 'Space Jams', type: 'shoes', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',image_url: '/img/jordan.jpg', details_url: 'http://www.starwars.com', author: ObjectId('45efbb8ff9d6c2c51942418c')}
-{ title: 'Black 49ers Jerseys', type: 'clothing', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', image_url: '/img/jersey.jpg', details_url: 'http://www.starwars.com', author: ObjectId('15efbb8ff9d6c2c51942418c')}
-{ title: 'Curry Ones', type: 'shoes', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', image_url: '/img/curryone.jpg', details_url: 'http://www.starwars.com', author: ObjectId('25efbb8ff9d6c2c51942418c')}
-{ title: 'Roo style dog', type: 'accessory', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',image_url: '/img/norwich.jpg', details_url: 'http://www.starwars.com', author: ObjectId('35efbb8ff9d6c2c51942418c')}
-{ title: 'Space Jams', type: 'shoes', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',image_url: '/img/jordan.jpg', details_url: 'http://www.starwars.com', author: ObjectId('45efbb8ff9d6c2c51942418c')}
-{ title: 'Black 49ers Jerseys', type: 'clothing', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', image_url: '/img/jersey.jpg', details_url: 'http://www.starwars.com', author: ObjectId('15efbb8ff9d6c2c51942418c')}
-{ title: 'Curry Ones', type: 'shoes', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', image_url: '/img/curryone.jpg', details_url: 'http://www.starwars.com', author: ObjectId('25efbb8ff9d6c2c51942418c')}
-{ title: 'Roo style dog', type: 'accessory', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',image_url: '/img/norwich.jpg', details_url: 'http://www.starwars.com', author: ObjectId('35efbb8ff9d6c2c51942418c')}
-{ title: 'Space Jams', type: 'shoes', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',image_url: '/img/jordan.jpg', details_url: 'http://www.starwars.com', author: ObjectId('45efbb8ff9d6c2c51942418c')}
-{ title: 'Black 49ers Jerseys', type: 'clothing', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', image_url: '/img/jersey.jpg', details_url: 'http://www.starwars.com', author: ObjectId('15efbb8ff9d6c2c51942418c')}
-{ title: 'Curry Ones', type: 'shoes', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', image_url: '/img/curryone.jpg', details_url: 'http://www.starwars.com', author: ObjectId('25efbb8ff9d6c2c51942418c')}
-{ title: 'Roo style dog', type: 'accessory', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',image_url: '/img/norwich.jpg', details_url: 'http://www.starwars.com', author: ObjectId('35efbb8ff9d6c2c51942418c')}
-{ title: 'Space Jams', type: 'shoes', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',image_url: '/img/jordan.jpg', details_url: 'http://www.starwars.com', author: ObjectId('45efbb8ff9d6c2c51942418c')}
-{ title: 'Black 49ers Jerseys', type: 'clothing', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', image_url: '/img/jersey.jpg', details_url: 'http://www.starwars.com', author: ObjectId('15efbb8ff9d6c2c51942418c')}
-{ title: 'Curry Ones', type: 'shoes', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', image_url: '/img/curryone.jpg', details_url: 'http://www.starwars.com', author: ObjectId('25efbb8ff9d6c2c51942418c')}
-{ title: 'Roo style dog', type: 'accessory', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',image_url: '/img/norwich.jpg', details_url: 'http://www.starwars.com', author: ObjectId('35efbb8ff9d6c2c51942418c')}
-{ title: 'Space Jams', type: 'shoes', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',image_url: '/img/jordan.jpg', details_url: 'http://www.starwars.com', author: ObjectId('45efbb8ff9d6c2c51942418c')}
-{ title: 'Black 49ers Jerseys', type: 'clothing', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', image_url: '/img/jersey.jpg', details_url: 'http://www.starwars.com', author: ObjectId('15efbb8ff9d6c2c51942418c')}
-{ title: 'Curry Ones', type: 'shoes', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', image_url: '/img/curryone.jpg', details_url: 'http://www.starwars.com', author: ObjectId('25efbb8ff9d6c2c51942418c')}
-{ title: 'Roo style dog', type: 'accessory', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',image_url: '/img/norwich.jpg', details_url: 'http://www.starwars.com', author: ObjectId('35efbb8ff9d6c2c51942418c')}
-{ title: 'Space Jams', type: 'shoes', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',image_url: '/img/jordan.jpg', details_url: 'http://www.starwars.com', author: ObjectId('45efbb8ff9d6c2c51942418c')}
-{ title: 'Black 49ers Jerseys', type: 'clothing', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', image_url: '/img/jersey.jpg', details_url: 'http://www.starwars.com', author: ObjectId('15efbb8ff9d6c2c51942418c')}
-{ title: 'Curry Ones', type: 'shoes', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', image_url: '/img/curryone.jpg', details_url: 'http://www.starwars.com', author: ObjectId('25efbb8ff9d6c2c51942418c')}
-{ title: 'Roo style dog', type: 'accessory', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',image_url: '/img/norwich.jpg', details_url: 'http://www.starwars.com', author: ObjectId('35efbb8ff9d6c2c51942418c')}
-{ title: 'Space Jams', type: 'shoes', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',image_url: '/img/jordan.jpg', details_url: 'http://www.starwars.com', author: ObjectId('45efbb8ff9d6c2c51942418c')}
-{ title: 'Black 49ers Jerseys', type: 'clothing', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', image_url: '/img/jersey.jpg', details_url: 'http://www.starwars.com', author: ObjectId('15efbb8ff9d6c2c51942418c')}
-{ title: 'Curry Ones', type: 'shoes', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', image_url: '/img/curryone.jpg', details_url: 'http://www.starwars.com', author: ObjectId('25efbb8ff9d6c2c51942418c')}
-{ title: 'Roo style dog', type: 'accessory', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',image_url: '/img/norwich.jpg', details_url: 'http://www.starwars.com', author: ObjectId('35efbb8ff9d6c2c51942418c')}
-{ title: 'Space Jams', type: 'shoes', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',image_url: '/img/jordan.jpg', details_url: 'http://www.starwars.com', author: ObjectId('45efbb8ff9d6c2c51942418c')}
-{ title: 'Black 49ers Jerseys', type: 'clothing', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', image_url: '/img/jersey.jpg', details_url: 'http://www.starwars.com', author: ObjectId('15efbb8ff9d6c2c51942418c')}
-{ title: 'Curry Ones', type: 'shoes', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', image_url: '/img/curryone.jpg', details_url: 'http://www.starwars.com', author: ObjectId('25efbb8ff9d6c2c51942418c')}
-{ title: 'Roo style dog', type: 'accessory', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',image_url: '/img/norwich.jpg', details_url: 'http://www.starwars.com', author: ObjectId('35efbb8ff9d6c2c51942418c')}
-{ title: 'Space Jams', type: 'shoes', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',image_url: '/img/jordan.jpg', details_url: 'http://www.starwars.com', author: ObjectId('45efbb8ff9d6c2c51942418c')}
-{ title: 'Black 49ers Jerseys', type: 'clothing', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', image_url: '/img/jersey.jpg', details_url: 'http://www.starwars.com', author: ObjectId('15efbb8ff9d6c2c51942418c')}
-{ title: 'Curry Ones', type: 'shoes', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', image_url: '/img/curryone.jpg', details_url: 'http://www.starwars.com', author: ObjectId('25efbb8ff9d6c2c51942418c')}
-{ title: 'Roo style dog', type: 'accessory', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',image_url: '/img/norwich.jpg', details_url: 'http://www.starwars.com', author: ObjectId('35efbb8ff9d6c2c51942418c')}
-{ title: 'Space Jams', type: 'shoes', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',image_url: '/img/jordan.jpg', details_url: 'http://www.starwars.com', author: ObjectId('45efbb8ff9d6c2c51942418c')}
-{ title: 'Black 49ers Jerseys', type: 'clothing', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', image_url: '/img/jersey.jpg', details_url: 'http://www.starwars.com', author: ObjectId('15efbb8ff9d6c2c51942418c')}
-{ title: 'Curry Ones', type: 'shoes', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', image_url: '/img/curryone.jpg', details_url: 'http://www.starwars.com', author: ObjectId('25efbb8ff9d6c2c51942418c')}
-{ title: 'Roo style dog', type: 'accessory', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',image_url: '/img/norwich.jpg', details_url: 'http://www.starwars.com', author: ObjectId('35efbb8ff9d6c2c51942418c')}
-{ title: 'Space Jams', type: 'shoes', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',image_url: '/img/jordan.jpg', details_url: 'http://www.starwars.com', author: ObjectId('45efbb8ff9d6c2c51942418c')}
-{ title: 'Black 49ers Jerseys', type: 'clothing', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', image_url: '/img/jersey.jpg', details_url: 'http://www.starwars.com', author: ObjectId('15efbb8ff9d6c2c51942418c')}
-{ title: 'Curry Ones', type: 'shoes', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', image_url: '/img/curryone.jpg', details_url: 'http://www.starwars.com', author: ObjectId('25efbb8ff9d6c2c51942418c')}
-{ title: 'Roo style dog', type: 'accessory', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',image_url: '/img/norwich.jpg', details_url: 'http://www.starwars.com', author: ObjectId('35efbb8ff9d6c2c51942418c')}
-{ title: 'Space Jams', type: 'shoes', blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',image_url: '/img/jordan.jpg', details_url: 'http://www.starwars.com', author: ObjectId('45efbb8ff9d6c2c51942418c')}
+
+{
+    title: 'Nasty Gal Cut Throat Stretch Bootie',
+    type: 'shoes',
+    blurb: 'Two of our fave shoe styles in one. The Cut Throat Heel is made in black vegan leather with patent heel shape, slightly stretchy upper, and stiletto heel. Wear them with wavy locks and a mini cape dress. By Privileged.',
+    image_url: '/img/58767.0.browse-l.jpg',
+    details_url: 'http://www.nastygal.com/shoes/nasty-gal-cut-throat-stretch-bootie-heel',
+    author: ObjectId('15efbb8ff9d6c2c51942418c')
+},
+{
+    title: 'Amber Suede Platform',
+    type: 'shoes',
+    blurb: 'Meet your new favorite goes-with-everything heel. The Amber Suede Platform is made in soft black suede and features peep toe, ankle strap, platform, and slightly chunky heel. Genuine leather lining and cushioned insole. Wear it with a mini skirt, silky blouse, and cropped sweater.',
+    image_url: '/img/62006.0.browse-l.jpg',
+    details_url: 'http://www.nastygal.com/shoes/amber-suede-platform',
+    author: ObjectId('25efbb8ff9d6c2c51942418c')
+},
+{
+    title: 'Pick Your Poison Leather Pumps',
+    type: 'shoes',
+    blurb: 'You don\'t have to pick your poison when it comes to these babies--you can have it all. These blue and green pumps feature a snakeskin leather upper, pointed toe, cutout detailing at heel, and cushioned insole. Perfect with an all-black-everything look and a night out with your gals!',
+    image_url: '/img/57913.0.browse-l.jpg',
+    details_url: 'http://www.nastygal.com/shoes/pick-your-poison-leather-pumps',
+    author: ObjectId('35efbb8ff9d6c2c51942418c')
+},
+{
+    title: 'Jeffrey Campbell Alamode Suede Boot - Chestnut',
+    type: 'shoes',
+    blurb: 'Say hello to your summer suede. The Alamode Boot is made in brown suede and has a stiletto heel, platform sole, and knee-high slouch design. Perfect for sporting those summer bodycons and shift dresses, or to wear under a sheer lace maxi dress. By Jeffrey Campbell.',
+    image_url: '/img/55812.0.browse-l.jpg',
+    details_url: 'http://www.nastygal.com/shoes/jeffrey-campbell-alamode-suede-boot--chestnut-',
+    author: ObjectId('45efbb8ff9d6c2c51942418c')
+},
+{
+    title: 'Sol Sana Alfa Leather Bootie',
+    type: 'shoes',
+    blurb: 'Totally sweet texture play over here. The Alfa Bootie is made in gray felt and features black leather at toe and back, silver inside zipper, stiletto heel, and black and white sole. Genuine leather lining. Wear it with a mini dress, square shades, and leather tote.',
+    image_url: '/img/56004.0.browse-l.jpg',
+    details_url: 'http://www.nastygal.com/shoes/sol-sana-alfa-leather-bootie',
+    author: ObjectId('15efbb8ff9d6c2c51942418c')
+},
+{
+    title: 'Jeffrey Campbell Smashing Textured Boot',
+    type: 'shoes',
+    blurb: 'Smash it up in these totally killer all-white boots. They have a textured snake exterior, pointed toe, inside zip closure, and stiletto heel. Genuine leather lining. Wear them with a cape dress and layered necklaces. By Jeffrey Campbell.',
+    image_url: '/img/58343.0.browse-l.jpg',
+    details_url: 'http://www.nastygal.com/shoes/jeffrey-campbell-smashing-textured-boot',
+    author: ObjectId('25efbb8ff9d6c2c51942418c')
+},
+{
+    title: 'Atelje 71 Emerald Leather Sneakers',
+    type: 'shoes',
+    blurb: 'Gun it to \'88 in these leather kicks made for going back to the future. These platform high-top sneakers feature metallic jewel-pebbled leather, two black stretch bands at front, a burgundy padded ankle, and white sole. Fully lined, cushioned insole. Rock \'em with leather pants a distressed white tee--perfect concert wear, just sayin\'. By Ateljé 71.',
+    image_url: '/img/57693.0.browse-l.jpg',
+    details_url: 'http://www.nastygal.com/shoes/atelje-71-emerald-leather-sneakers',
+    author: ObjectId('35efbb8ff9d6c2c51942418c')
+},
+{
+    title: 'JC Play by Jeffrey Campbell Player High-Top Sneaker',
+    type: 'shoes',
+    blurb: 'Hip-hop and we don\'t stop. The Player High-Top Sneakers are mirrored silver and feature white laces, a rubber sole, and cushioned ankle. Fully lined, cushioned insole. Wear them with skinny sweats and a muscle tee for extra swag. By JC Play by Jeffrey Campbell.',
+    image_url: '/img/57236.0.browse-l.jpg',
+    details_url: 'http://www.nastygal.com/shoes/jc-play-by-jeffrey-campbell-player-hightop-sneaker--silver-mirror',
+    author: ObjectId('45efbb8ff9d6c2c51942418c')
+},
+{
+    title: 'Vicenzo Leather Boot',
+    type: 'shoes',
+    blurb: 'Dopest. Boot. Ever. The Vincenzo is made in white leather and features blue treaded sole, metallic mesh overlay, black chelsea inserts, and almond toe. Cushioned insole. Team \'em up with a leather mini skirt and a shredded tee. By Jeffrey Campbell.',
+    image_url: '/img/56443.0.browse-l.jpg',
+    details_url: 'http://www.nastygal.com/shoes/jeffrey-campbell-vicenzo-leather-boot',
+    author: ObjectId('15efbb8ff9d6c2c51942418c')
+},
+{
+    title: 'JC Play By Jeffrey Campbell Player High-Top Sneaker Gold',
+    type: 'shoes',
+    blurb: 'Hip-hop and we don\'t stop. The Player High-Top Sneakers are mirrored gold and feature white laces, a rubber sole, and cushioned ankle. Fully lined, cushioned insole. Wear them with skinny sweats and a muscle tee for extra swag. By JC Play by Jeffrey Campbell.',
+    image_url: '/img/57235.0.browse-l.jpg',
+    details_url: 'http://www.nastygal.com/shoes/jc-play-by-jeffrey-campbell-player-hightop-sneaker--gold-mirror',
+    author: ObjectId('25efbb8ff9d6c2c51942418c')
+},
+{
+    title: 'Schutz Gilberta Patent Leather Pump',
+    type: 'shoes',
+    blurb: 'We just struck gold. The Gilberta Pumps are patent leather and feature a pointed toe and leather sole and insole. Wear them with a black cape dress and dainty headband. By Schutz.',
+    image_url: '/img/60683.0.browse-l.jpg',
+    details_url: 'http://www.nastygal.com/shoes/schutz-gilberta-patent-leather-pump',
+    author: ObjectId('35efbb8ff9d6c2c51942418c')
+},
+
+
+{
+    title: 'Citizens of Humanity Rocket High Rise Skinny Jean',
+    type: 'clothing',
+    blurb: 'Wear these babies in or wear \'em out. These distressed black denim skinnies have the classic 5-pocket style, zip/button closures at front, and stretch fabric. Wear them with a distressed tee and your favorite moto jacket. By Citizens of Humanity.',
+    image_url: '/img/53594.0.browse-l.jpg',
+    details_url: 'http://www.nastygal.com/clothes/citizens-of-humanity-rocket-high-rise-skinny-jean--black',
+    author: ObjectId('15efbb8ff9d6c2c51942418c')
+},
+{
+    title: 'Lioness Voltage Maxi Dress',
+    type: 'clothing',
+    blurb: 'Welcome to your power source. The Voltage Dress is black and features low v-neckline, back wrap design, and full billowing maxi skirt. Total show stopper. Team it up with vintage boots and a fringe bag. By Lioness.',
+    image_url: '/img/61631.0.browse-l.jpg',
+    details_url: 'http://www.nastygal.com/clothes/lioness-voltage-maxi-dress',
+    author: ObjectId('25efbb8ff9d6c2c51942418c')
+},
+{
+    title: 'RES Denim Trashqueen Skinny Jean',
+    type: 'clothing',
+    blurb: 'ime to get a leg up? RES to the rescue. The Trashqueen Jean is made in coated black denim and features low hipster silhouette, faux and real pockets, and custom matte black hardware. It\'s for when you want your casual look to turn heads. Pair it with a chunky sweater and ankle booties. By RES Denim.',
+    image_url: '/img/55905.0.browse-l.jpg',
+    details_url: 'http://www.nastygal.com/clothes/res-denim-trashqueen-skinny-jean--matte-black',
+    author: ObjectId('35efbb8ff9d6c2c51942418c')
+},
+{
+    title: 'Mock It Out Crop Top',
+    type: 'clothing',
+    blurb: 'This is the little white crop top you never knew you needed. It features a mock neck, darted bust, structured fabric, and small keyhole at back. Hook closures, unlined. Perfect with high-waisted white trousers, mules, and metallic jewelry.',
+    image_url: '/img/57266.0.browse-l.jpg',
+    details_url: 'http://www.nastygal.com/clothes/mock-it-out-crop-top',
+    author: ObjectId('45efbb8ff9d6c2c51942418c')
+},
+{
+    title: 'Nasty Gal Back in the Game Slit Tee',
+    type: 'clothing',
+    blurb: 'Serious game? You\'ll need this. The Back in the Game Tee is made in a faded gray knit and features subtle tie-dye print, high/low silhouette, back slit, and scoop neck. Team it up with leather leggings and moto boots. Put your back into it, y\'all. Made in L.A. by Nasty Gal.',
+    image_url: '/img/59542.1.browse-l.jpg',
+    details_url: 'http://www.nastygal.com/clothes/nasty-gal-back-in-the-game-slit-tee--gray',
+    author: ObjectId('15efbb8ff9d6c2c51942418c')
+},
+{
+    title: 'Uma Asymmetrical Sweater',
+    type: 'clothing',
+    blurb: 'Takin\' it easy also applies to your closet. The Uma Sweater is made in a semi sheer lightweight cream knit and features boat neck, asymmetrical design, and ribbed sleeves at wrists. Throw it on with a tank dress, oversized shades, and ankle boots, and you\'re out the door. Easy breezy.',
+    image_url: '/img/59943.0.browse-l.jpg',
+    details_url: 'http://www.nastygal.com/clothes-sweaters/uma-asymmetrical-sweater',
+    author: ObjectId('25efbb8ff9d6c2c51942418c')
+},
+{
+    title: 'Cardi On Duster Cardigan',
+    type: 'clothing',
+    blurb: 'Ain\'t no cardi like a duster cardi, \'cause a duster cardi don\'t stop. Like, for real. The Cardi On Cardigan is made in a lightweight burgundy knit and features roll-up tabs at sleeves, bucket pockets, duster length, and open front. Perfect for that weird fall weather. Team it up with skinnies and chelsea boots.',
+    image_url: '/img/61125.1.browse-l.jpg',
+    details_url: 'http://www.nastygal.com/clothes-sweaters/cardi-on-duster-cardigan',
+    author: ObjectId('35efbb8ff9d6c2c51942418c')
+},
+{
+    title: 'Knitz by For Love & Lemons Fleetwood Oversized Sweater',
+    type: 'clothing',
+    blurb: 'It\'s that time again, ladies--Knitz by For Love & Lemons is back with some of our favorite fall gear. This orange fuzzy sweater features blush and burgundy stripes, an oversized fit, and ribbing at neck, cuffs, and hem. This beauty is so soft you\'re never gonna want to take it off--so pair it with anything from leather pants to a little denim skirt!',
+    image_url: '/img/56833.0.browse-l.jpg',
+    details_url: 'http://www.nastygal.com/clothes-sweaters/knitz-by-for-love--lemons-fleetwood-oversized-sweater',
+    author: ObjectId('45efbb8ff9d6c2c51942418c')
+},
+{
+    title: 'Lazy Oaf To The Letter Crop Sweatshirt',
+    type: 'clothing',
+    blurb: 'Go ahead--crop to it. This gray sweatshirt by Lazy Oaf features pink terry cloth letter appliqués, ribbing at mock neck and cuffs, and stretch fabric. Unlined. Rock it with a leather pencil skirt, pumps, and oversized sunnies.',
+    image_url: '/img/56735.0.browse-l.jpg',
+    details_url: 'http://www.nastygal.com/clothes-tops/lazy-oaf-to-the-letter-crop-sweatshirt',
+    author: ObjectId('15efbb8ff9d6c2c51942418c')
+},
+{
+    title: 'After Party Vintage Elina Crop Tee',
+    type: 'clothing',
+    blurb: 'You\'re officially invited to Nasty Gal\'s After Party! Each piece is lovingly crafted from vintage surplus fabric in Los Angeles, meaning you\'re not only saving the environment, but your ass as well. Party on...and on. This white crop tee features yellow stripes, stretch fabric, and exposed white stitching. Throw it on with your favorite bells and circle shades for a \'70s-inspired vibe!',
+    image_url: '/img/57878.0.browse-l.jpg',
+    details_url: 'http://www.nastygal.com/clothes-tops/after-party-vintage-elina-crop-tee',
+    author: ObjectId('25efbb8ff9d6c2c51942418c')
+},
+{
+    title: 'Waverly Vest',
+    type: 'clothing',
+    blurb: 'Add a touch of luxe fur to your fall look with this Bailey 44 vest. In lighter brown, it’ll give your look a bohemian-inspired feel.',
+    image_url: '/img/BL13.jpg',
+    details_url: 'https://www.renttherunway.com/shop/designers/bailey_44/waverly_vest',
+    author: ObjectId('35efbb8ff9d6c2c51942418c')
+},
+{
+    title: 'Magenta Structured Top',
+    type: 'clothing',
+    blurb: 'Accent basic bottoms with this bold sculptural top by Finders Keepers. Add delicate jewelry — try Gorjana Accessories\' Teagan Ring Set — and dress up the look with nude heels. ',
+    image_url: '/img/FK5.jpg',
+    details_url: 'https://www.renttherunway.com/shop/designers/finders_keepers/magenta_structured_top',
+    author: ObjectId('45efbb8ff9d6c2c51942418c')
+},
+{
+    title: 'Black Becky Jacket',
+    type: 'clothing',
+    blurb: 'Give a casual outfit instant polish with this jacket by Rebecca Minkoff. The structured shoulders will bring a sharp twist to your look.',
+    image_url: '/img/RM1.jpg',
+    details_url: 'http://www.nastygal.com/clothes/citizens-of-humanity-rocket-high-rise-skinny-jean--black',
+    author: ObjectId('15efbb8ff9d6c2c51942418c')
+},
+{
+    title: 'Blush Wes Moto Jacket',
+    type: 'clothing',
+    blurb: 'Blush leather gives this edgy moto jacket by Rebecca Minkoff a feminine twist. It\'ll make a great layer for summery pastels and neutral-colored clothes.',
+    image_url: '/img/RM6.jpg',
+    details_url: 'https://www.renttherunway.com/shop/designers/rebecca_minkoff/blush_wes_moto_jacket',
+    author: ObjectId('25efbb8ff9d6c2c51942418c')
+},
+{
+    title: 'Gold Dust Top',
+    type: 'clothing',
+    blurb: 'Gold beads dress-up this cropped top by Badgley Mischka, exclusive to Rent the Runway. For a whimsical formal look, try pairing with a delicate texture, like Badgley Mischka\'s Windswept Skirt, on the bottom and add color with Oscar de la Renta\'s Emerita Cocktail Ring.',
+    image_url: '/img/BM256.jpg',
+    details_url: 'https://www.renttherunway.com/shop/designers/badgley_mischka/gold_dust_top',
+    author: ObjectId('35efbb8ff9d6c2c51942418c')
+},
+{
+    title: 'Dotted Skirt',
+    type: 'clothing',
+    blurb: 'Go super playful in this bold polka dot skirt by Boutique Moschino. A silk white button-down top plus black heels will polish it off.',
+    image_url: '/img/MO127.jpg',
+    details_url: 'https://www.renttherunway.com/shop/designers/boutique_moschino/dotted_skirt',
+    author: ObjectId('45efbb8ff9d6c2c51942418c')
+},
+{
+    title: 'RVN Luthor Top',
+    type: 'clothing',
+    blurb: 'The graphic black and white pattern on this RVN top richens the typically casual cropped style. For an unexpected party look, pair with RVN\'s Luthor Skirt to show just a bit of skin and RJ Graziano\'s Pyramid Bracelet.',
+    image_url: '/img/RVN15.jpg',
+    details_url: 'https://www.renttherunway.com/shop/designers/rvn/luthor_top',
+    author: ObjectId('15efbb8ff9d6c2c51942418c')
+},
+{
+    title: 'Hibiscus Floral Skirt',
+    type: 'clothing',
+    blurb: 'A full shape gives the feminine flowers on this ERIN Erin Fetherston skirt a playful update. Try it with ERIN erin fetherston\'s Hibiscus Floral Top for a fresh and unexpected daytime look.',
+    image_url: '/img/EF101.jpg',
+    details_url: 'https://www.renttherunway.com/shop/designers/erin_erin_fetherston/hibiscus_floral_skirt',
+    author: ObjectId('25efbb8ff9d6c2c51942418c')
+},
+{
+    title: 'Gorda Crop Top',
+    type: 'clothing',
+    blurb: 'A bright fabric adds a playful vibe to this Elizabeth and James crop top. Dress up the daytime look with Eddie Borgo\'s Lotus Cone Bracelet.',
+    image_url: '/img/EJ53.jpg',
+    details_url: 'https://www.renttherunway.com/shop/designers/elizabeth_and_james/gorda_crop_top',
+    author: ObjectId('35efbb8ff9d6c2c51942418c')
+},
+{
+    title: 'Inclusion Coat',
+    type: 'clothing',
+    blurb: 'A mix of fur, leather and wool makes this Helmut Lang coat the ultimate chic style for fall. In black, it’ll go with everything in your closet.',
+    image_url: '/img/HM56.jpg',
+    details_url: 'https://www.renttherunway.com/shop/designers/helmut_lang/inclusion_coat',
+    author: ObjectId('45efbb8ff9d6c2c51942418c')
+},
+
+
+{
+    title: 'Ash Go for Broke Leather Crossbody Bag',
+    type: 'accessory',
+    blurb: 'Go for broke with a dope bag to match. The Go for Broke Crossbody Bag is made in black textured leather and features zipper detailing, buckle at front with snap closure, expandable zip pocket at front, adjustable shoulder strap, and three interior pockets. Fully lined. Wear it with a thin sweatshirt, ripped skinnies, and leather booties. By Ash.',
+    image_url: '/img/58647.2.browse-l.jpg',
+    details_url: 'http://www.nastygal.com/accessories/ash-go-for-broke-leather-crossbody-bag',
+    author: ObjectId('15efbb8ff9d6c2c51942418c')
+},
+{
+    title: 'Hot Headed Beanie - Olive',
+    type: 'accessory',
+    blurb: 'No shame in living up to your reputation, ladies. The Hot Headed Beanie is made in a ribbed knit and can be folded up or pulled down low. Perfect with a maxi dress and flannel top. Get heated, y\'all.',
+    image_url: '/img/48007.0.browse-l-1.jpg',
+    details_url: 'http://www.nastygal.com/accessories/hot-headed-beanie--olive',
+    author: ObjectId('25efbb8ff9d6c2c51942418c')
+},
+{
+    title: 'Goal Master Aviator Shades',
+    type: 'accessory',
+    blurb: 'Uh, can you say score? The Goal Master Shades have black frames with gold rims and aviator design. Pair \'em with a red lip and structured shoulder bag.',
+    image_url: '/img/59853.2.browse-l.jpg',
+    details_url: 'http://www.nastygal.com/accessories/goal-master-aviator-shades',
+    author: ObjectId('35efbb8ff9d6c2c51942418c')
+},
+{
+    title: 'World Is Yours Cat-Eye Shades',
+    type: 'accessory',
+    blurb: 'The world is your oyster, so you might as well wear the pearls. These shades feature pearl embellishment, slightly tinted lenses, and cat-eye silhouette. Wear them with a plunging jumpsuit and ankle-strap heels.',
+    image_url: '/img/59881.2.browse-l.jpg',
+    details_url: 'http://www.nastygal.com/accessories/world-is-yours-cateye-shades',
+    author: ObjectId('45efbb8ff9d6c2c51942418c')
+},
+{
+    title: 'Savannah Hoop Earrings',
+    type: 'accessory',
+    blurb: 'The \'70s babe in you needs these. The Savannah Earrings are black and feature swirl hoops connected to round posts and post back closure. Wear \'em with a vintage maxi dress and oversized shades.',
+    image_url: '/img/57994.0.browse-l.jpg',
+    details_url: 'http://www.nastygal.com/accessories/savannah-hoop-earrings',
+    author: ObjectId('15efbb8ff9d6c2c51942418c')
+},
+{
+    title: 'Pearl Jam Hair Clips',
+    type: 'accessory',
+    blurb: 'Jammin\' pretty. The Pearl Jam Hair Clips are gunmetal and feature strung pearls and easy slip-on design. Wear \'em with loose curls and a bright red lip for a night out.',
+    image_url: '/img/59755.0.browse-l.jpg',
+    details_url: 'http://www.nastygal.com/accessories/pearl-jam-hair-clips',
+    author: ObjectId('25efbb8ff9d6c2c51942418c')
+},
+{
+    title: 'Holo At Me Bag',
+    type: 'accessory',
+    blurb: 'This ultra cool hologram bag is perfect for a night out! It features a button closure at front flap, a top handle and a detachable/adjustable shoulder strap. Gunmetal studs at bottom, unlined. Pair it with a skater skirt and your favorite crop top!',
+    image_url: '/img/40560.0.browse-l.jpg',
+    details_url: 'http://www.nastygal.com/accessories/holo-at-me-bag',
+    author: ObjectId('35efbb8ff9d6c2c51942418c')
+},
+{
+    title: 'Skinnydip London Unicorn Tears Bag',
+    type: 'accessory',
+    blurb: 'Drank up, ladies. The Unicorn Tears Bag is made in vegan leather and features sparking iridescent exterior, rainbow graphic with Unicorn Tears text, and faux straw. Fully lined, zip closure, gold metallic chain shoulder strap. Killer with shortalls and flatforms, or a bodycon and slide sneakers. By Skinnydip London.',
+    image_url: '/img/55411.0.browse-l.jpg',
+    details_url: 'http://www.nastygal.com/accessories/skinnydip-london-unicorn-tears-bag',
+    author: ObjectId('45efbb8ff9d6c2c51942418c')
+},
+{
+    title: 'Hazy Love Shades',
+    type: 'accessory',
+    blurb: 'We can\'t and won\'t hide our love for these shades. They feature rose gold metal rims, rounded orange and red-tinted lenses with heart-shaped overlays, and tortoiseshell arm tips. Wear \'em with your best bedhead and a brightly colored romper.',
+    image_url: '/img/59599.2.browse-l.jpg',
+    details_url: 'http://www.nastygal.com/accessories/hazy-love-shades',
+    author: ObjectId('15efbb8ff9d6c2c51942418c')
+},
+{
+    title: 'Blaze a Trail Fox Clutch',
+    type: 'accessory',
+    blurb: 'Give a pared-down outfit a playful touch with kate spade accessories’s quirky clutch.',
+    image_url: '/img/KSAHNB14.jpg',
+    details_url: 'https://www.renttherunway.com/shop/designers/kate_spade_new_york_accessories/blaze_a_trail_fox_clutch',
+    author: ObjectId('25efbb8ff9d6c2c51942418c')
+},
+{
+    title: 'Noir Marks the Spot Earring',
+    type: 'accessory',
+    blurb: 'For a truly x-citing party accessory, get these adorable earrings by Oscar de la Renta. These black and white pave drops are sure to go with everything!',
+    image_url: '/img/ODLRPE23.jpg',
+    details_url: 'https://www.renttherunway.com/shop/designers/pierced_jewelry/noirmarksspotearring',
+    author: ObjectId('35efbb8ff9d6c2c51942418c')
+},
+{
+    title: 'Luna Drive Small Willow Handbag',
+    type: 'accessory',
+    blurb: 'Small and eye-catching, this kate spade accessories crossbody bag will add bold polish to any outfit.',
+    image_url: '/img/KSAHNB15.jpg',
+    details_url: 'https://www.renttherunway.com/shop/designers/kate_spade_new_york_accessories/luna_drive_small_willow_handbag',
+    author: ObjectId('45efbb8ff9d6c2c51942418c')
+},
+{
+    title: 'Imperial Arrows Clutch',
+    type: 'accessory',
+    blurb: 'Give your look a playful statement with this novelty clutch by Anya Hindmarch.',
+    image_url: '/img/AHHNB3.jpg',
+    details_url: 'https://www.renttherunway.com/shop/designers/anya_hindmarch/imperial_arrows_clutch',
+    author: ObjectId('15efbb8ff9d6c2c51942418c')
+},
+{
+    title: 'Azia Purple Necklace',
+    type: 'accessory',
+    blurb: 'Look like royalty in this chic Nocturne necklace - vibrant purple will stand out in a sea of black dresses!',
+    image_url: '/img/NTNK4.jpg',
+    details_url: 'https://www.renttherunway.com/shop/designers/nocturne/azia_purple_necklace',
+    author: ObjectId('25efbb8ff9d6c2c51942418c')
+},
+{
+    title: 'Windrose Cuff',
+    type: 'accessory',
+    blurb: 'Adorn your wrist with delicate shine. This Elizabeth & James cuff will go perfectly with all your favorite bracelet stacks!',
+    image_url: '/img/EJBRC2.jpg',
+    details_url: 'https://www.renttherunway.com/shop/designers/elizabeth_and_james_accessories/windrose_cuff',
+    author: ObjectId('35efbb8ff9d6c2c51942418c')
+},
+
+
+{
+    title: 'Shimmer Blazer',
+    type: 'clothing',
+    blurb: 'Make any outfit party-ready with BB Dakota’s sequinned blazer.',
+    image_url: '/img/BDK2.jpg',
+    details_url: 'https://www.renttherunway.com/shop/designers/bb_dakota/shimmer_blazer',
+    author: ObjectId('15efbb8ff9d6c2c51942418c')
+},
+{
+    title: 'Contrast Moto Vest',
+    type: 'clothing',
+    blurb: 'Finish off any outfit with this edgy leather vest by Laveer. The design lets you cover up without adding bulk to your body.',
+    image_url: '/img/LV2.jpg',
+    details_url: 'https://www.renttherunway.com/shop/designers/laveer/contrast_moto_vest',
+    author: ObjectId('25efbb8ff9d6c2c51942418c')
+},
+{
+    title: 'Joval Top',
+    type: 'clothing',
+    blurb: 'Throw on Matison Stone\'s top with denim for an effortless summer look. Polish off the outfit with Gorjana Accessories\' Bali Tube Necklace and heels.',
+    image_url: '/img/MTS4.jpg',
+    details_url: 'https://www.renttherunway.com/shop/designers/matison_stone/joval_top',
+    author: ObjectId('35efbb8ff9d6c2c51942418c')
+},
+{
+    title: 'Indigo Paisley Top',
+    type: 'clothing',
+    blurb: 'Add a splash of the 1970s to your wardrobe with this billowing Joie blouse. For the most flattering silhouette, pair the airy top with slim-fit bottoms.',
+    image_url: '/img/JE8.jpg',
+    details_url: 'https://www.renttherunway.com/shop/designers/joie/indigo_paisley_top',
+    author: ObjectId('45efbb8ff9d6c2c51942418c')
+},
+{
+    title: 'White Lily Romper',
+    type: 'clothing',
+    blurb: 'A lace bodice adds depth to this charming romper by Keepsake. Try dressing up the playful silhouette with nude heels and Ella Carter\'s Evan Ring.',
+    image_url: '/img/KP2.jpg',
+    details_url: 'https://www.renttherunway.com/shop/designers/keepsake/white_lily_romper',
+    author: ObjectId('15efbb8ff9d6c2c51942418c')
+},
+{
+    title: 'Leopard Dot Crepe Romper',
+    type: 'clothing',
+    blurb: 'Show off your playful personality in this charming romper by kate spade new york. Offset the feminine design with sleek, modern accessories.',
+    image_url: '/img/KS40.jpg',
+    details_url: 'https://www.renttherunway.com/shop/designers/kate_spade_new_york/leopard_dot_crepe_romper',
+    author: ObjectId('25efbb8ff9d6c2c51942418c')
+},
+{
+    title: 'Black Merlyn Top',
+    type: 'clothing',
+    blurb: 'Add a boho vibe to your denim with Elizabeth and James\'s top. It makes an elegant backdrop for Gorjana Accessories\' Mave Lariat Necklace.',
+    image_url: '/img/EJ15.jpg',
+    details_url: 'https://www.renttherunway.com/shop/designers/elizabeth_and_james/black_merlyn_top',
+    author: ObjectId('35efbb8ff9d6c2c51942418c')
+},
+{
+    title: 'Pleats Me Top',
+    type: 'clothing',
+    blurb: 'Pleats add a playful vibe to this alluring tank by Nanette Lepore. Try it with skinny high-waisted bottoms, heels, and some metallic jewelry. Try bracelet name for a dynamic night-out look.',
+    image_url: '/img/NL50.jpg',
+    details_url: 'https://www.renttherunway.com/shop/designers/nanette_lepore/pleats_me_top',
+    author: ObjectId('45efbb8ff9d6c2c51942418c')
+},
+{
+    title: 'Bretta Citron Lace Skirt',
+    type: 'clothing',
+    blurb: 'Trina Turk gave pretty, feminine lace an electrifying twist with her citrus-colored skirt. Make it casual-cool with a button-down, sleek jewelry Gorjana Accessories\' Chaplin Cuff is a great option and kicks.',
+    image_url: '/img/TT92.jpg',
+    details_url: 'https://www.renttherunway.com/shop/designers/trina_turk/bretta_citron_lace_skirt',
+    author: ObjectId('15efbb8ff9d6c2c51942418c')
+},
+{
+    title: 'Dorris Skirt',
+    type: 'clothing',
+    blurb: 'Abstract stripes in feminine pastels dress up this skirt by Trina Turk. Pair with a light blouse and nude stilettos to elevate the look.',
+    image_url: '/img/ztt88.jpg',
+    details_url: 'https://www.renttherunway.com/shop/designers/trina_turk/dorris_skirt',
+    author: ObjectId('25efbb8ff9d6c2c51942418c')
+}
+
+]
