@@ -3,7 +3,7 @@
 angular.module('lookbook').factory('looks', ['$http',
 	function($http) {
 
-        //set a seed for this session
+        //set a seed for this session so no duplicates when paginating
         var seed = Math.random();
 
 		// Public API

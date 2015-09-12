@@ -1,3 +1,11 @@
 .look-container {
     margin-top: 20px;
 }
+
+.masonry-brick {
+    visibility: hidden;
+}
+
+.masonry-brick.loaded {
+    visibility: visible;
+}

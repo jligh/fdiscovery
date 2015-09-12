@@ -1,6 +1,6 @@
 #Fashion Discovery App (LookBook)
 
-You guys mentioned you are using a MEAN stack, so I chose to build this app using it. I had never used Node.js with Express, so I figured this was a good way to learn a little more about it. I started with the official MEAN Yeoman generator to get started. I also used a few 3rd party libraries, such as a infinite scroll and masonry grid library to create the Pinterest-like layout.
+Since the team mentioned you are using a MEAN stack, I chose to try building this app using it. I had never used Node.js with Express, so I figured this was a good way to learn a little more about it. I started with the official MEAN Yeoman generator to get started. I also used a few 3rd party libraries, such as a infinite scroll and masonry grid library to create the Pinterest-like layout.
 
 Because of the Yeoman generator, there's probably quite a few extra things installed here that this particular app doesn't use. If this were a real app, I would also probably have included Sass, but for the purpose of this demo, I just went with regular CSS.
 
@@ -22,8 +22,8 @@ $ sudo npm install -g grunt-cli
 
 * Install Node and Bower Dependencies for this app
 ```
-npm install
 bower install
+npm install
 ```
 
 ## Seed Data

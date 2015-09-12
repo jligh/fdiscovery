@@ -17,7 +17,6 @@ angular.module('lookbook').controller('LookbookController', ['$scope', '$statePa
               return;
           }
           $scope.disableScrollCheck = true;
-          var lastId = $scope.looks[$scope.looks.length - 1]._id;
           looks.getRandomLooks(page + 1, lookConfig.limit, $stateParams.type).then(function(moreLooks) {
               if (moreLooks.length) {
                   $scope.disableScrollCheck = false;

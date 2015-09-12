@@ -1,6 +1,6 @@
 <section>
     <div ng-if="looks.length" class="look-container" infinite-scroll="loadNext()" nfinite-scroll-disabled="disableScrollCheck" infinite-scroll-distance="1">
-        <div masonry>
+        <div masonry="{ transitionDuration: '0.4s' }" reload-on-show reload-on-resize column-width="270">
             <div class="masonry-brick" ng-repeat="look in looks track by look._id">
                 <look-item look="look"></look-item>
             </div>

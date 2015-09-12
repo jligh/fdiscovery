@@ -523,7 +523,7 @@
     title: 'Dorris Skirt',
     type: 'clothing',
     blurb: 'Abstract stripes in feminine pastels dress up this skirt by Trina Turk. Pair with a light blouse and nude stilettos to elevate the look.',
-    image_url: '/img/ztt88.jpg',
+    image_url: '/img/tt88.jpg',
     details_url: 'https://www.renttherunway.com/shop/designers/trina_turk/dorris_skirt',
     author: ObjectId('25efbb8ff9d6c2c51942418c')
 }
