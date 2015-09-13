@@ -19,11 +19,13 @@ angular.module('lookbook').controller('LookbookController', ['$scope', '$statePa
           $scope.disableScrollCheck = true;
           looks.getRandomLooks(page + 1, lookConfig.limit, $stateParams.type).then(function(moreLooks) {
               if (moreLooks.length) {
-                  $scope.disableScrollCheck = false;
                   page++;
                   $scope.looks = $scope.looks.concat(moreLooks);
-              } else {
-                  $scope.disableScrollCheck = true;
+
+                  if (moreLooks.length === lookConfig.limit) {
+                      //more pages possible
+                      $scope.disableScrollCheck = false;
+                  }
               }
           });
         };

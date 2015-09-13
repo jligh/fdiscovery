@@ -55,6 +55,7 @@
     background-repeat: no-repeat;
     background-position: center center;
     margin: 0 5px;
+    vertical-align: middle;
 }
 
 .item-content .user .user-name {
@@ -64,4 +65,5 @@
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    vertical-align: middle;
 }
